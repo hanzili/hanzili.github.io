@@ -1,0 +1,119 @@
+nav {
+    display: flex;
+    position:fixed;
+    width:100%;
+    z-index: 1;
+}
+
+nav ul{
+    height: 30px;
+    margin: 0 auto;
+    background-color: beige;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width:100%;
+}
+
+nav li {    
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+}
+
+nav li a{
+    color: #6e6d7a;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+html {
+    height:100%;
+    width: 100%;
+    background-image: url(picture/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center; 
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#container {
+    flex: 1;
+    display: flex;
+    height:80%;
+    justify-content: center;
+    background-size:100% 100%;
+}
+
+#picture {
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    width: 30%;
+    height:50%;
+    margin: auto;
+    background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
+}
+
+img {
+    height:100%;
+    width:100%;
+    object-fit: contain;
+}
+
+#description {
+    width: 30%;
+    height:50%;
+    margin: auto;
+    font-family: Baskerville,serif;
+    box-sizing: border-box;
+    padding: 50px 50px;
+    background: 
+        linear-gradient(to right, #ffafbd, #ffc3a0),
+        linear-gradient(to right, #ffdde1, #ee9ca7 );
+}
+
+footer {
+    width: 100%;
+    position: relative;
+    margin-bottom: 0px;
+    background: #ff5f6d;
+    background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer_element {
+    box-sizing: border-box;
+    width:33%;
+    display: inline-block;
+}
+ .footer_element img {
+     height: 30px;
+     width: 30px;
+ }
+.footer_element ul{
+    margin: 0 auto;
+}
+
+ .footer_element li{
+    display: inline;
+ }

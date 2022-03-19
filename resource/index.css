@@ -1,0 +1,141 @@
+h1 {
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-text-stroke: 1.11px black;
+    color: rgb(255, 255, 255);
+    font-family: "merriweatherheavy";
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0;
+}
+
+#introduction {
+    margin: 0 auto;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    box-sizing: border-box;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:50% 50%;
+    background-image: url(picture/cover.JPG);
+}
+
+#introduction h1{
+    position: relative;
+    width:100%;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    position:fixed;
+    width:100%;
+    z-index: 1;
+}
+
+nav ul{
+    height: 30px;
+    margin: 0 auto;
+    background-color: beige;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width:100%;
+}
+
+nav li {    
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+}
+
+nav li a{
+    color: #6e6d7a;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+
+
+.blog {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 33%;
+    height:100%;
+    padding: 60px 0;
+    background-color: aliceblue;
+}
+
+.blog figure img{
+    display: flex;
+    width: auto;
+    height: auto;
+    max-width: 150px;
+    max-height: 200px;
+}
+
+.blog figurecaption{
+    align-self: flex-end;
+    border-left: 1px solid rgba(255, 8, 8, 0.15);
+    font-family: "source_sans_proregular";
+    font-size: 15px;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    padding-left: 8px;
+    margin-left: 6px;
+    
+}
+
+.blog article{
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    color: #0c0c17;
+    font-family: "source_sans_probold";
+    font-size: 24px;
+    line-height: 24px;
+    -webkit-font-smoothing: antialiased;
+}
+
+section{
+    display: flex;
+    height: 400px;
+    gap: 10px 20px;
+}
+
+footer {
+    background: #ff5f6d;
+    background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer_element {
+    box-sizing: border-box;
+    width:33%;
+    display: inline-block;
+}
+ .footer_element img {
+     height: 30px;
+     width: 30px;
+ }
+.footer_element ul{
+    margin: 0 auto;
+}
+
+ .footer_element li{
+    display: inline;
+ }
+
