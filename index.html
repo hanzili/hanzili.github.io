@@ -9,67 +9,45 @@
     </head>
     <body>
         <nav>
-            <ul>
-                <li><a href="index.html">Blog</a></li>
-                <li><a href="about_me.html">About Me</a></li>
-                <li><a href="message">Message</a></li>
-            </ul>
-        </nav>
+            <a href="index.html">Blog</a>
+            <a href="about_me.html">About Me</a>
+            <a href="message">Message</a>
+        </nav>    
         
+        <div id="introduction">
+            <h1>Hanzi Li's Blog</h1>
+        </div>
         <main>
-            <div id="introduction">
-                <h1>Hanzi Li's Blog</h1>
-            </div>
-            <section>
-                <div class="blog">
-                    <article>
-                        <p>This is my Doy. His name is Dogson</p>
-                    </article>
-                        <figure>
-                            <img src="resource/picture/dogson.JPG" />
-                            <figcaption>Dogson 2021.03.25</figcaption>
-                        </figure>
-                        
+            <section id="projectsection">
+                <h4>My project</h4>
+            </section>
+            <section id="blogsection">
+                <div class="blog" style="background-image: url('resource/picture/dogson.JPG');" >
+                    <p>This is my Doy. His name is Dogson</p>                   
                 </div>
-                <div class="blog">
-                    <article>
-                        <p>I shaved my head</p>
-                    </article>
-                        <figure>
-                            <img src="resource/picture/bald.JPG" />
-                            <figcaption>Bald Head 2021.10.12</figcaption>
-                        </figure>
-                        
+                <div class="blog" style="background-image: url('resource/picture/bald.JPG');" >
+                    <p>I shaved my head</p>                      
                 </div>
-                <div class="blog">
-                    <article>
-                        <p>I love Chinese food</p>
-                    </article>
-                        <figure>
-                            <img src="resource/picture/Chinese_Food.JPG" />
-                        </figure>
-                        <figcaption>Chinese Food 2022.03.17</figcaption>
+                <div class="blog" style="background-image: url('resource/picture/Chinese_Food.JPG');">
+                    <p>I love Chinese food</p>
                 </div>
             </section>
-
-            <footer>
-                <div class="footer_element">
+        </main>
+        <footer>
+            <div class="footer_element">
                 <h5>Email</h5>
                 <p>hanzi.li@mail.mcgill.ca</p>
+            </div>
+            <div class="footer_element">
+                <h5>Telephone</h5>
+                <p>+1 4383542698</p>
                 </div>
-                <div class="footer_element">
-                    <h5>Telephone</h5>
-                    <p>+1 4383542698</p>
-                </div>
-                <div class="footer_element">
+            <div class="footer_element">
                 <h5>Social</h5>
-                <ul>
-                    <li><a href="https://space.bilibili.com/366908163"> <img  src="resource/icon/bilibili.svg" /></a></li>
-                    <li><a href="https://github.com/hanzili"><img src="resource/icon/github.png" /></a></li>
-                    <li><a href="https://www.linkedin.com/in/hanzi-li-mcgill/"><img src="resource/icon/linkedin.png" /></a></li>
-                </ul>
-                </div>
-            </footer>
-        </main>
+                <a href="https://space.bilibili.com/366908163"> <img class="icon" src="resource/icon/bilibili.svg" /></a>
+                <a href="https://github.com/hanzili"><img class="icon" src="resource/icon/github.png" /></a>
+                <a href="https://www.linkedin.com/in/hanzi-li-mcgill/"><img class="icon" src="resource/icon/linkedin.png" /></a>
+            </div>
+        </footer>
     </body>
 </html>
